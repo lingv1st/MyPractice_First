@@ -6,13 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World! I am a TextView"
+            android:textColor="#0A9A9A"
+            android:textSize="30sp"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World! I am a EditText"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="Hello World! I am a Button"
+            android:fontFamily="sans-serif"
+            android:textColor="#BBBBBB" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World! I am a Switch"
+            android:gravity="right" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World! I am a CheckBox"
+            android:textStyle="bold"
+            android:textDirection="rtl"
+            android:textAllCaps="true"/>
+
+        <ToggleButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textOn="I am a ToggleButton"
+            android:textOff="Hello World!"
+            android:background="#0fafff"/>
+
+    </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
