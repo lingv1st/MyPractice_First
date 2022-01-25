@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,7 +14,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World! I am a TextView"
+            android:text="@string/hello_world_textview"
             android:textColor="#0A9A9A"
             android:textSize="30sp"
             android:gravity="center" />
@@ -23,27 +22,27 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World! I am a EditText"
+            android:text="@string/hello_world_edittext"
             android:textSize="20sp"
             android:textStyle="italic" />
 
         <Button
             android:layout_width="200dp"
             android:layout_height="100dp"
-            android:text="Hello World! I am a Button"
+            android:text="@string/hello_world_button"
             android:fontFamily="sans-serif"
             android:textColor="#BBBBBB" />
 
         <Switch
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World! I am a Switch"
+            android:text="@string/hello_world_switch"
             android:gravity="right" />
 
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World! I am a CheckBox"
+            android:text="@string/hello_world_checkbox"
             android:textStyle="bold"
             android:textDirection="rtl"
             android:textAllCaps="true"/>
@@ -51,7 +50,7 @@
         <ToggleButton
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:textOn="I am a ToggleButton"
+            android:textOn="@string/hello_world_togglebutton"
             android:textOff="Hello World!"
             android:background="#0fafff"/>
 

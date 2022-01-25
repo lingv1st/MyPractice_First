@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MyPractice_First</string>
+    <string name="hello_world_textview">Hello World! I am a TextView</string>
+    <string name="hello_world_edittext">Hello World! I am a EditText</string>
+    <string name="hello_world_button">Hello World! I am a Button</string>
+    <string name="hello_world_switch">Hello World! I am a Switch</string>
+    <string name="hello_world_checkbox">Hello World! I am a CheckBox</string>
+    <string name="hello_world_togglebutton">I am a ToggleButton</string>
+    <string name="text">text</string>
+    <string name="textpassword">textPassword</string>
+    <string name="textemailaddress">textEmailAddress</string>
+    <string name="datetime">datetime</string>
+    <string name="textpersonname">textPersonName</string>
+    <string name="phone">phone</string>
+    <string name="time">time</string>
 </resources>
